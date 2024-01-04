@@ -1,7 +1,6 @@
 module Tetris(output reg [7:0] DATA_R, DATA_G, DATA_B,
             output reg [3:0] COMM,
 				output reg [6:0] seg,
-				output reg [7:0] count_out,
 				output reg [3:0] seg_cnt,
 				output[2:0]light,
 				output beep,
