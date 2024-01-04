@@ -17,7 +17,6 @@ LED 陣列，用來計分。
 module Tetris(output reg [7:0] DATA_R, DATA_G, DATA_B, //8x8 LED陣列的顯示控制訊號
             output reg [3:0] COMM,                     //藍色的角色的位置
 				output reg [6:0] seg,                          //7段顯示器顯示1/2/3/4/5/6/7/8/9/0
-				output reg [7:0] count_out,                    //
 				output reg [3:0] seg_cnt,                      //控制計時器亮哪一個 以達到4個一起顯示
 				output[2:0]light,                              //控制剩餘生命顯示 (上排led陣列) 111->011->001->000(gameover)
 				output beep,                                   //美妙的音樂！！
